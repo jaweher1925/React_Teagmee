@@ -1,0 +1,99 @@
+.tigmee__header {
+    display: flex;
+    flex-direction: row;
+}
+
+.tigmee__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.tigmee__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    position:relative;
+    display: flex;
+    padding: 5%;
+    text-align:justify;
+    font-size: 62px;
+    line-height: 70px;
+    letter-spacing: -0.07em;
+}
+
+
+.tigmee__header-content__input button {
+    flex: 0.3;
+    width: 100%;
+    min-height: 50px;
+    position:relative;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #b831af;
+    border: 2px solid #722881;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+
+.tigmee__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tigmee__header-image img {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 2000px) {
+    .tigmee__header {
+        flex-direction:row;
+        
+    }
+
+    .tigmee__header-content {
+        margin: 0 0 2rem;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .tigmee__header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .tigmee__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .tigmee__header-content h1 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .tigmee__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+        
+    }
+}
