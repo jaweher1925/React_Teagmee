@@ -1,6 +1,9 @@
 # Getting Started with Create React App
+Notre site est une plateforme de coworking en ligne qui utilise React.js comme framework.
+Nous offrons une expérience unique en 3D où les utilisateurs peuvent créer leur propre avatar et naviguer dans l'espace virtuel comme s'ils étaient chez eux. Pour améliorer l'engagement et créer une communauté, nous proposons différents espaces virtuels tels qu'un espace calme pour se concentrer, un espace collaboratif pour les projets de groupe et un espace social pour le réseautage. Nous offrons également des équipements virtuels comme une cuisine, une bibliothèque et une salle de jeux. Des événements en ligne tels que des ateliers et des webinaires, ainsi que des forums de discussion, encouragent l'interaction entre les utilisateurs. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Nous proposons également des services virtuels tels que du coaching et du mentorat pour aider les utilisateurs à se développer personnellement et professionnellement
+
 
 ## Available Scripts
 
