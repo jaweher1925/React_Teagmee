@@ -9,13 +9,13 @@ const App = () => {
       <div className='gardient__bg'>
         <Navbar />
         <Header />
+        <Brand />
+        <Whattigmee />
+        <Features />
+        <Possibility />
         
       </div>
-      <Brand />
-      <Whattigmee />
-      <Features />
-      <Possibility />
-
+  
 
    
     </div>

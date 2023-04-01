@@ -17,7 +17,7 @@ const NavBar = () => {
         
         <div className="tigmee__navbar-links">
           <p><a href="#home">Home</a></p>
-          <p><a href="#calender">Calender</a></p>
+          <p><a href="#About">About</a></p>
           <p><a href="#agenda">agenda</a></p>
           <p><a href="#contact">contact</a></p>
         </div>

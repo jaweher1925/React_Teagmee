@@ -24,9 +24,17 @@
 }
 
 .tigmee__about-feature {
-    display: flex;
+    display: flex;  
+}
 
-    
+.aboutT{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 1rem;
+
 }
 .tigmee__about-heading {
     display: flex;
@@ -37,12 +45,18 @@
     margin: 4rem 0 2rem;
 }
 
+.titre{
+    color: rgb(214, 151, 204);
+    
+}
 .tigmee__about-heading h1 {
     font-size: 34px;
     line-height: 45px;
     font-weight: 800;
     font-family: var(--font-family);
-    max-width: 510px;
+    width: 100%;
+    align-items: center;
+    
 }
 
 .tigmee__about-heading p {
@@ -58,8 +72,9 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
+    align-items: center;
     margin-top: 2rem;
+    width: 100%;
 }
 
 
@@ -89,12 +104,10 @@
 }
 
 @media screen and (max-width: 650px) {
-    /* Customizing feature component as per needs */
+  
     .tigmee__about-feature .tigmee__features-container__feature {
         flex-direction: column;
     }
-
-    /* Customizing feature component as per needs */
     .tigmee__about-feature .tigmee__features-container_feature-text {
         margin-top: 0.5rem;
     }
@@ -111,4 +124,10 @@
         margin: 1rem 0;
         min-width: 100%;
     }
+}
+
+
+
+.modal--information{
+    color: antiquewhite;
 }
