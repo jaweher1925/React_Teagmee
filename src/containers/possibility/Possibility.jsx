@@ -3,6 +3,7 @@ import'./possibility.css'
 
 const Possibility = () => {
   return (
+    <div className="contact">
    <li class="l-section section">
             <div class="contact">
               <div class="contact--lockup">
@@ -20,6 +21,7 @@ const Possibility = () => {
               </div>
             </div>
           </li>
+          </div>
   );
 }
 

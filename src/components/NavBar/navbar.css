@@ -67,6 +67,9 @@
 .tigmee__navbar-menu {
     margin-left: 1rem;
 
+
+    display: none;
+    
     display: none;
     position: relative; 
 }
@@ -107,9 +110,7 @@
         display: none;
         
     }
-    .tigmee__navbar-menu {
-        display: none;  
-    }    
+    
 }
 
 @media screen and (max-width: 700px) {
@@ -131,7 +132,7 @@
     .tigmee__navbar {
         padding: 2rem;
         display: flex;
-        
+   
     }
 
     .tigmee__navbar-sign {
@@ -142,11 +143,12 @@
        top: 70px;
       
     }
- 
     .tigmee__navbar-menu_container-links-sign {
         display: block;
     }
- 
+  .tigmee__navbar-menu {
+        display: none;  
+    }   
 }
 
 
@@ -154,9 +156,6 @@
 .tigmee__navbar-menu>li {
     -webkit-transform: translateX(0) translateZ(0);
     transform: translateX(0) translateZ(0);
- 
-    
-
 }
 
 tigmee__navbar-menu>li {
@@ -189,7 +188,5 @@ span
     color: white;
     font-size: 30px;
     font-weight: 300;
-   
-   
-    
+  
 }
